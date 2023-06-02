@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  background-color: #f5f5f5;
+  padding: 0 100px;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 14px;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav li a {
+  color: #659d89;
+  padding-right: 20px;
+}
+
+.nav li a:hover {
+  text-shadow: 2px 2px 5px #666;
+}
+
+.text_header {
+  margin-bottom: 50px;
+}
+
+.text_header_top {
+  color: #659d89;
+  font-size: 50px;
+}
+
+.text_header_body {
+  font-size: 50px;
+  margin-right: 620px;
+}
+
+.social {
+  color: black;
+  margin-bottom: 80px;
+}
+
+.social li {
+  text-align: right;
+}
+
+.social li a {
+  color: black;
+}
+
+.social li a img:hover {
+  background: #666;
+  filter: blur(8px);
+}
+
+.browse {
+  content: "\2992";
+  color: #666;
+  font-size: 16px;
+}
+
+header {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 40px;
+}
+
+.text_main_head {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.text_main_body {
+  margin-bottom: 80px;
+}
+
+.gif {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.gif img {
+  padding: 20px 20px;
+}
+
+.section_gif {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+
+.feature {
+  font-size: 20px;
+  padding-bottom: 80px;
+}
+
+.img_left {
+  padding-left: 80px;
+  padding-right: 404px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.img_left p {
+  padding: 5px 0;
+}
+
+.img_right {
+  padding-left: 404px;
+  padding-right: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.img_right p {
+  padding: 5px 0;
+}
+
+.div_main {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 80px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  margin-bottom: 60px;
+  scroll-behavior: smooth;
+}
+
+footer p {
+  font-size: 10px;
+  margin-bottom: 80px;
+}
